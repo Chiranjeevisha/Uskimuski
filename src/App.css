@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+.postivebtnclass,
+.negativebtnclass {
+  padding: 5px 10px;
+  margin: 5px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+}
+
+.postivebtnclass {
+  background: #22c600;
+  color: white;
+}
+
+.negativebtnclass {
+  border: 2px solid #f86561;
+  color: #f86561;
+}
+
+.customImg {
+  z-index: 0;
+  margin: auto;
+}
+.customImg > div {
+  border-radius: 10%;
+}
+.customImg > div:nth-child(1) {
+  transform: rotate(-10deg) translateY(0px) !important;
+  height: 250px;
+  width: 250px;
+}
+.customImg > div:nth-child(2) {
+  transform: rotate(10deg) translateY(0px) !important;
+  height: 250px;
+  width: 250px;
+}
+.customImg > div:nth-child(3) {
+  transform: rotate(0deg) translateY(0px) !important;
+  height: 250px;
+  width: 250px;
+}
+
+.pagination {
+  bottom: 0;
+  padding-bottom: 4px;
+}
+
+.slide {
+  text-align: center;
+  height: 320px;
+  line-height: 320px;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.swiper-pagination {
+  /* border: 1px solid red; */
+  margin-bottom: 7%;
+  /* color: red; */
+}
+
+.swiper-pagination span {
+  background-color: #0788b2 !important; /* Color of Inactive bullet */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #00a6dc !important; /* Color of active bullet */
+}
+
+.check {
+  border: 2px solid red;
+}
+.slick-next:before {
+  content: "" !important;
+}
